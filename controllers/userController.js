@@ -52,7 +52,7 @@ const userSignUp = async (req, res) => {
   }
 };
 
-// API for Login User
+// API for Login User.
 const userLogin = async (req, res) => {
   const { email, password } = req.body;
   try {
@@ -93,7 +93,7 @@ const userLogin = async (req, res) => {
   }
 };
 
-// API for update user profile
+// API for update user profile.
 const updateUserProfile = async (req, res) => {
   const { id, email, userName, userPhone, city, state } = req.body;
   try {
